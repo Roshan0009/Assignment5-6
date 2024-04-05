@@ -1,0 +1,100 @@
+/* This is the Css for the Currency Converter
+Roshan Lamichhane
+C0916262*/
+.whole-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  /*This is style for the whole pages */
+    max-width: 620px; 
+    margin: 0 auto;
+}
+* {
+    box-sizing: border-box;
+}
+.whole-div {
+    display: grid;
+    gap: 10px; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main-div {
+    max-width: 600px;
+    height: 350px;    /*  this is  style for the main container of the  web pages*/
+    margin: 20px auto;
+    padding: 0;
+    margin-bottom: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.Head-div {
+    width: 100%;
+    background-color: rgb(15, 77, 140);
+    color: white; /* Adjusting color and font for the header*/
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.head-para{
+    font-size: 30px;
+    margin-bottom: 0px; /* Adjusting the font size for the first  line of the header*/
+}
+.h-para{
+    font-size: 20px;  /* Adjusting the font size for the second  line of the header*/
+}
+
+.input-div {
+    display: flex;
+    justify-content: space-between; /* Adjusting the padding for the Usd Input section*/
+    align-items: center;
+    padding: 20px;
+}
+
+.usd-input-div {
+    width:60%;
+}
+
+.currency-div {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  /* adjusting the style for the section that contain the the currency input CAD*/
+    padding: 10px;
+}
+
+.flag {
+    background-color: hsl(215, 87%, 37%);
+    padding: 20px;  /* Adjusting the backround color of the the container that flag*/
+    border-radius: 0px;
+}
+
+input[type="number"] {
+    padding: 29px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.interchange-icon button {
+    background-color:rebeccapurple; /* Styling the background color and other style for the interchange icon*/
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    width: 30px;
+}
+
+button {
+    background-color: rgb(15, 77, 140);
+    text-align:center;
+    margin-left: 0px;
+    margin-top: 0px; /* This is the style for the button*/
+    width: 100px;
+    border-radius: 20px; 
+
+}
+.convert{
+    padding:20px;
+    text-align: center;
+    cursor: pointer;
+}
