@@ -1,0 +1,48 @@
+<!--Assignment 5 and 6-->
+<!--C0916262-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Currency Converter</title>
+    <!--Linking the stylesheet with html-->
+    <link rel="stylesheet" href="st.css" />
+  </head>
+  <body>
+    <div class="whole-div">
+      <div class="main-div">
+        <div class="Head-div">
+          <p class="head-para">US Dollar to Canadian Dollar</p>
+          <!--This is a header section that contains 2 lines -->
+          <p class="h-para">Convert USD to CAD at the real exchange rate.</p>
+        </div>
+        <!--This is the section for inputing the currency amount in USD-->
+        <div class="input-div">
+          <div class="usd-input-div">
+            <label for="usdAmount">Amount</label>
+            <div class="currency-div">
+              <input type="number" id="usdAmount" placeholder="Amount" />
+              <span class="flag">🇺🇸 USD</span>
+            </div>
+          </div>
+          <!--This section contain the butto for interchangin the currency-->
+          <div class="interchange-icon">
+            <button onclick="swapCurrencies()">↔</button>
+          </div>
+          <!--this section is for inputing the currency In CAD-->
+          <div class="usd-input-div">
+            <label for="cadAmount"> Converted Amount</label>
+            <div class="currency-div">
+              <input type="number" id="cadAmount" placeholder="Amount" />
+              <span class="flag">🇨🇦 CAD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--This is the button for currency exchange-->
+      <button onclick="convertCurrency()" class="convert">Convert</button>
+    </div>
+    <!--Linking the javascript with html-->
+    <script src="sc.js"></script>
+  </body>
+</html>
